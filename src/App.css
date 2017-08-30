@@ -1,23 +1,50 @@
-.lyricsContainer {
+.lyrics-container {
   margin: 5px 10px;
+  overflow-y: scroll;
 }
 
-.lyricsContainer h1, .lyricsContainer h2 {
+.lyrics-container h1, .lyrics-container h2 {
   text-align: center;
 }
 
-.lyricsContainer .title {
+.lyrics-container .title {
   font-weight: bold;
   font-size: 24px;
 }
-.lyricsContainer .artist {
+.lyrics-container .artist {
   margin-top: 0;
   font-size: 18px;
   font-style: italic;
 }
 
-.lyricsContainer .lyrics {
+.lyrics-container .lyrics {
   white-space: pre;
   font-size: 16px;
   margin: 10px 10px;
 }
+
+.lyrics-list-item .title {
+
+}
+
+.lyrics-list-item .artist {
+  font-style:italic;
+}
+
+.lyrics-list-item .dash {
+  margin: 0px 5px;
+}
+
+/* XS */
+@media(max-width:767px){
+
+}
+
+/* SM */
+@media(min-width:768px){}
+
+/* MD */
+@media(min-width:992px){}
+
+/* LG */
+@media(min-width:1200px){}
