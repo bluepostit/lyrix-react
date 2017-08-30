@@ -1,0 +1,23 @@
+.lyricsContainer {
+  margin: 5px 10px;
+}
+
+.lyricsContainer h1, .lyricsContainer h2 {
+  text-align: center;
+}
+
+.lyricsContainer .title {
+  font-weight: bold;
+  font-size: 24px;
+}
+.lyricsContainer .artist {
+  margin-top: 0;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.lyricsContainer .lyrics {
+  white-space: pre;
+  font-size: 16px;
+  margin: 10px 10px;
+}
