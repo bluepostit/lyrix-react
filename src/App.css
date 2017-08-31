@@ -1,6 +1,6 @@
 .lyrics-container {
   margin: 5px 10px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .lyrics-container h1, .lyrics-container h2 {
@@ -21,6 +21,10 @@
   white-space: pre;
   font-size: 16px;
   margin: 10px 10px;
+}
+
+.lyrics-search-bar-wrapper {
+  padding: 0.5%;
 }
 
 .lyrics-list-item .title {
